@@ -17,7 +17,7 @@ public class Memetflix {
         titanic.añoDeLanzamiento = 1997;
 
         Actor actor = new Actor();
-        actor.nombre = "Leonardo 'Entraba en la tabla' Di Caprio";
+        actor.nombre = "Leonardo Di Caprio";
         actor.edad = 39;
 
         titanic.actores.add(actor);
