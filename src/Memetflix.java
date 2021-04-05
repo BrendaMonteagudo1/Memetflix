@@ -17,7 +17,7 @@ public class Memetflix {
         titanic.añoDeLanzamiento = 1997;
 
         Actor actor = new Actor();
-        actor.nombre = "Leonardo Di Caprio";
+        actor.nombre = "Leonardo 'Entraba en la tabla' Di Caprio";
         actor.edad = 39;
 
         titanic.actores.add(actor);
@@ -56,7 +56,6 @@ public class Memetflix {
         episodio.nombre = "Episodio piloto";
         episodio.duracion = 50;
 
-        temporada.episodios.add(episodio);
 
         sexEducation.temporada.add(temporada);
 
@@ -96,6 +95,15 @@ public class Memetflix {
         episodio.duracion = 65;
 
         temporada.episodios.add(episodio);
+
+
+        episodio = new Episodio();
+        episodio.nombre = "lelelulelo";
+        episodio.numero = 4;
+        episodio.duracion = 65;
+
+        temporada.episodios.add(episodio);
+
         newAms.temporada.add(temporada);
 
     }
